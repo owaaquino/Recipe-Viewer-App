@@ -18,14 +18,9 @@ An app that displays a list of food recipe
 - CSS
 - HTML
 
-**Assets:**
-
-- Font -
-
 **Live links:**
 
-- Codepen -
-- Hosted with Netlify -
+- Hosted with Netlify - [https://react-routing-recipe-app.netlify.com/](https://react-routing-recipe-app.netlify.com/)
 
 # Notes
 
