@@ -32,9 +32,9 @@ div#root {
   width: 80%;
   height: auto;
   padding: 50px 50px;
-  background-color: #6C5B7B;
-  border-radius: 15px;
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  /* background-color: #6C5B7B; */
+  /* border-radius: 15px; */
+  /* box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); */
   display: flex;
   justify-content: center;
   flex-direction: column;
@@ -87,6 +87,14 @@ footer p a:hover {
 .recipie-container{
   width: 90%;
   margin: 0 auto;
+}
+
+.recipie-container h2:after {
+  position: relative;
+  top: 10px;
+  border-bottom: 4px solid tomato;
+  width: 30%;
+  padding-bottom: 5px;
 }
 
 .recipie-top{

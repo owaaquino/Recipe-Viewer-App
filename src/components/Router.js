@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter, Route, Switch } from "react-router-dom";
 import Home from "./Home";
-import Recipie from "./Recipie";
+import Recipe from "./Recipe";
 import NotFound from "./NotFound";
 
 const Router = () => {
@@ -13,12 +13,12 @@ const Router = () => {
           path="/"
           render={() => (
             <Home
-              title={"Recipies App View"}
-              desc={"Below are list of recipies..."}
+              title={"Recipes App Viewer"}
+              desc={"A simple React Router sample application"}
             />
           )}
         />
-        <Route path="/recipie/:slug" component={Recipie} />
+        <Route path="/recipe/:slug" component={Recipe} />
         <Route component={NotFound} />
       </Switch>
     </BrowserRouter>

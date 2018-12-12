@@ -2,7 +2,7 @@ import React from "react";
 import { Recipies } from "../data/recipies";
 // import NotFound from "./NotFound";
 
-const Recipie = ({ match }) => {
+const Recipe = ({ match }) => {
   let slug = match.params.slug;
   // console.log(Object.keys(Recipies).includes(slug));
   // if (Object.keys(Recipies).includes(slug)) {
@@ -49,4 +49,4 @@ const Recipie = ({ match }) => {
   return <div>{recepie}</div>;
 };
 
-export default Recipie;
+export default Recipe;
