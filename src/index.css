@@ -113,5 +113,19 @@ footer p a:hover {
   object-fit: cover;
 }
 
-.steps {
+@media  only screen and (max-width: 768px ){
+  .cards {
+    display: block;
+  }
+  .card-item {
+    width: 100%;
+  }
+
+
+  .recipie-top{
+    display: block;
+  }
+  .recipie-left, .recipie-right{
+    width: 100%;
+  }
 }
